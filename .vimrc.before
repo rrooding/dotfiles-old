@@ -1,4 +1,21 @@
 call janus#disable_plugin('tagbar')
 call janus#disable_plugin('easymotion')
 call janus#disable_plugin('nrrwrng')
-call janus#disable_plugin('fugitive')
+
+set encoding=utf-8
+set gfn=Droid\ Sans\ Mono\ for\ Powerline
+
+if has("gui_running")
+  set guioptions=-t
+endif
+
+noremap  <Up> ""
+noremap! <Up> <Esc>
+noremap  <Down> ""
+noremap! <Down> <Esc>
+noremap  <Left> ""
+noremap! <Left> <Esc>
+noremap  <Right> ""
+noremap! <Right> <Esc>
+
+let g:Powerline_symbols = 'fancy'

@@ -16,10 +16,3 @@
 .zsh-update
 .zsh_history
 .zshrc.swp
-!.gitconfig
-!.gitignore
-!.janus
-!.zshrc
-!.vimrc.before
-!.vimrc.after
-!.bashrc
