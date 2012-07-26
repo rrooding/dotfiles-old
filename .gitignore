@@ -5,7 +5,6 @@
 .Trash
 .bash_history
 .bash_login
-.bashrc
 .gvimrc
 .oh-my-zsh
 .pow
@@ -23,3 +22,4 @@
 !.zshrc
 !.vimrc.before
 !.vimrc.after
+!.bashrc
