@@ -7,6 +7,7 @@ set gfn=Droid\ Sans\ Mono\ for\ Powerline
 
 if has("gui_running")
   set guioptions=-t
+  let g:Powerline_symbols = 'fancy'
 endif
 
 noremap  <Up> ""
@@ -18,4 +19,3 @@ noremap! <Left> <Esc>
 noremap  <Right> ""
 noremap! <Right> <Esc>
 
-let g:Powerline_symbols = 'fancy'
