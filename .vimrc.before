@@ -1,0 +1,4 @@
+call janus#disable_plugin('tagbar')
+call janus#disable_plugin('easymotion')
+call janus#disable_plugin('nrrwrng')
+call janus#disable_plugin('fugitive')
