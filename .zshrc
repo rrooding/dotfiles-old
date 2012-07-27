@@ -36,6 +36,9 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 
+alias m='mvim .'
+alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
+
 # Add ~/work to cd path
 export CDPATH=$CDPATH:~/work/
 
