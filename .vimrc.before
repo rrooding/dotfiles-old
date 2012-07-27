@@ -2,6 +2,8 @@ call janus#disable_plugin('tagbar')
 call janus#disable_plugin('easymotion')
 call janus#disable_plugin('nrrwrng')
 
+set nocompatible
+
 set encoding=utf-8
 set gfn=Droid\ Sans\ Mono\ for\ Powerline
 
