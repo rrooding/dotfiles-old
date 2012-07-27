@@ -36,4 +36,8 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 
+# Add ~/work to cd path
+export CDPATH=$CDPATH:~/work/
+
+# Last line
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
