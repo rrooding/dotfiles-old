@@ -23,3 +23,5 @@ noremap! <Right> <Esc>
 
 set nobackup
 set nowritebackup
+
+au BufRead,BufNewFile *.hamlc set ft=haml
