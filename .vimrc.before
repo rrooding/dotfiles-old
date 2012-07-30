@@ -5,7 +5,7 @@ call janus#disable_plugin('nrrwrng')
 set nocompatible
 
 set encoding=utf-8
-set gfn=Droid\ Sans\ Mono\ for\ Powerline
+set gfn=Droid\ Sans\ Mono\ for\ Powerline:h10
 
 if has("gui_running")
   set guioptions=-t
