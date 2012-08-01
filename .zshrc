@@ -42,5 +42,7 @@ alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 # Add ~/work to cd path
 export CDPATH=$CDPATH:~/work/
 
+export EDITOR='vim'
+
 # Last line
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
