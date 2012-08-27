@@ -44,8 +44,11 @@ export CDPATH=$CDPATH:~/work/
 
 export EDITOR='vim'
 
-# Java options
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
 declare -x MAVEN_OPTS="-Xms256m -Xmx1G -XX:MaxPermSize=256m -Xnoagent -Djava.compiler=NONE -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5000" 
+# Java options
 
 # Last line
 PATH=$PATH:/opt/android-sdk-macosx/tools:$HOME/.rvm/bin # Add RVM to PATH for scripting
