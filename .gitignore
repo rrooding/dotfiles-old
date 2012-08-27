@@ -18,3 +18,5 @@
 .zshrc.swp
 .lesshst
 .irb-history
+.NERDTreeBookmarks
+.vagrant
