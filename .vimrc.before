@@ -8,20 +8,19 @@ set encoding=utf-8
 set gfn=Droid\ Sans\ Mono\ for\ Powerline:h10
 
 if has("gui_running")
-  set guioptions=-t
+  set guioptions=ce
   let g:Powerline_symbols = 'fancy'
 endif
-
-noremap  <Up> ""
-noremap! <Up> <Esc>
-noremap  <Down> ""
-noremap! <Down> <Esc>
-noremap  <Left> ""
-noremap! <Left> <Esc>
-noremap  <Right> ""
-noremap! <Right> <Esc>
 
 set nobackup
 set nowritebackup
 
 au BufRead,BufNewFile *.hamlc set ft=haml
+
+" Bubble single lines
+nmap <C-A-k> [e
+nmap <C-A-j> ]e
+
+" Bubble multiple lines
+vmap <C-A-k> [egv
+vmap <C-A-j> ]egv
